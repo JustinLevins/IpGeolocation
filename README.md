@@ -14,7 +14,7 @@ https://ipstack.com
 
 For creating the map: https://developers.google.com/maps/documentation/
 
-##### To use: `python <location of file> <target ip>`
+##### To use: `python location.py <target ip>`
 
 ![Image of Usage](locationPyImg.PNG)
 In the image above, I run the script with an IP address of a proxy server in Ukraine. This creates an HTML file, "locating.html", that is saved to your current directory and subsequently opened to view the location of the IP address. Testing the script on foreign proxy servers is quite simple to do, as their IP addresses are publicly available, and located around the world. The circle around the location marker depicts a 3 mile radius, within which the target IP is likely to be found. This is not guaranteed, however, as IP geolocation is not 100% accurate.
